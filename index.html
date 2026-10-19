@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://accounts.google.com/gsi/client https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com https://accounts.google.com/gsi/style; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https:; connect-src 'self' https://script.google.com https://script.googleusercontent.com https://accounts.google.com/gsi/; frame-src 'self' blob: https://accounts.google.com/gsi/; media-src 'self' blob:; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="description" content="Layanan persuratan & arsip digital: ajukan permohonan surat, lacak status, dan verifikasi keaslian dokumen ber-QR.">
+  <meta name="theme-color" content="#1B4332">
+  <title>SURAT DIGITAL — Persuratan & Arsip Digital</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231B4332'/%3E%3Cpath d='M32 12l16 6v12c0 12-16 20-16 20S16 42 16 30V18z' fill='none' stroke='%23D4A017' stroke-width='4' stroke-linejoin='round'/%3E%3Cpath d='M25 31l5 5 9-10' fill='none' stroke='%23fff' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://script.google.com">
+  <link rel="preconnect" href="https://script.googleusercontent.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap">
+  <link rel="stylesheet" href="css/style.css?v=1.0.0">
+  <link rel="stylesheet" href="css/upgrade.css?v=1.0.0">
+  <script src="js/tema.js?v=1.0.0"></script>
+</head>
+<body>
+  <div class="bar-sinkron" id="bar-sinkron" aria-hidden="true"></div>
+  <div id="app">
+    <div class="boot" role="status" aria-live="polite">
+      <div class="logo-boot"><svg class="ikon lg" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 12 2 2 4-4"/></svg></div>
+      <div>Memuat aplikasi…</div>
+      <noscript><p>Aplikasi ini membutuhkan JavaScript. Aktifkan JavaScript di peramban Anda.</p></noscript>
+    </div>
+  </div>
+  <div id="modal-root"></div>
+  <div id="toast-wrap" aria-live="polite"></div>
+
+  <script src="js/config.js?v=1.0.0"></script>
+  <script src="js/api.js?v=1.0.0"></script>
+  <script src="js/ui.js?v=1.0.0"></script>
+  <script src="js/qr.js?v=1.0.0"></script>
+  <script src="js/publik.js?v=1.0.0"></script>
+  <script src="js/permohonan.js?v=1.0.0"></script>
+  <script src="js/admin.js?v=1.0.0"></script>
+  <script src="js/surat.js?v=1.0.0"></script>
+  <script src="js/docengine.js?v=1.0.0"></script>
+  <script src="js/emailmasuk.js?v=1.0.0"></script>
+  <script src="js/laporan.js?v=1.0.0"></script>
+  <script src="js/pengaturan.js?v=1.0.0"></script>
+  <script src="js/komunikasi.js?v=1.0.0"></script>
+  <script src="js/integrasi.js?v=1.0.0"></script>
+  <script src="js/app.js?v=1.0.0"></script>
+</body>
+</html>
